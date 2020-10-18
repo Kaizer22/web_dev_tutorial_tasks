@@ -1,0 +1,59 @@
+body{
+	margin: 0px;
+	font-size: 14pt;
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 30vh 30vh 30vh;
+	font-family: Verdana;
+	overflow-x: hidden;
+	justify-items: center;
+	align-items: center;
+
+	background-color: #eee;
+
+}
+body.child{
+	justify-self:center;
+}
+#books{
+	display: grid;
+	height: 30vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 10vh 10vh 10vh;
+	grid-gap: 0px;
+	margin: 0px;
+	padding: 10px;
+	justify-self:center;
+}
+#form1{
+	display: block;
+	height: 30vh;
+	margin: 0px;
+	padding: 10px;
+	justify-self:center;
+}
+#form2{
+	display: block;
+	height: 30vh;
+	margin: 0px;
+	padding: 10px;
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+	display: block;
+	height: 5vh;
+	width: auto;
+	background-color: #7984F0;
+	border-radius: 5px;
+	text-align: center;
+	justify-content: center;
+	padding: 1.5vh 1vw 0 1vw;
+	margin: auto;
+}
